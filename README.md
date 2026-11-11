@@ -1,7 +1,6 @@
 # Kantenstreichung im Pricing: welche Kanten sind überflüssig? – Streamlit-Demo
 
-<!-- Nach dem Deploy hier direkt den Live-Link einsetzen (Leerzeile davor und danach):
-**[→ Demo live ausprobieren](https://sebastianhanisch-kantenstreichung-pricing-demo.streamlit.app/)** -->
+**[→ Demo live ausprobieren](https://sebastianhanisch-kantenstreichung-pricing-demo.streamlit.app/)**
 
 Interaktive **Konzepte-Demo** der Reihe „Ressourcenwege und Spaltenerzeugung“ im Portfolio von [Sebastian Hanisch](https://sebastianhanisch.net) (Operations Research und Machine Learning).
 Die **Spaltenerzeugung** (zum Beispiel bei der Tourenplanung) endet mit einer **unteren Schranke LB** (dem Wert des Masters) und **Dualpreisen**, je einem Preis pro Kunde; die **reduzierten Kosten** einer Route sind ihre Länge minus die Preise ihrer Kunden.
