@@ -50,7 +50,7 @@ Alle Messungen: eigene Solomon-artige Instanzen (nicht die Originalinstanzen), P
 - **Experiment 3 (wie gut muss die obere Schranke sein?):** Kurve „Anteil der Kanten mit Wert höchstens x % von LB“ für die Live-Instanz und die vier Zellen der Reihe n = 30, die Lücken der drei Schranken als Marken, Regler „angenommene Lücke“ (0,5 bis 10 % von LB, ohne Garantie) mit Verdikt, ob das Optimum bleibt.
 - **Experiment 4 (Bänder):** die Reihe n = 30 (vier Zellen mit je 12 Instanzen) und die kleine Reihe n = 50: Aufbau (fertige und abgebrochene Läufe, bewiesene Optima), Streichanteil und Label-Verhältnis je Schwelle mit Mittel und Spanne.
 - **Experiment 5 (Gegenprobe):** die Schwelle der Live-Instanz von 100 % bis 0 % der Lücke in Zehntelschritten, zu jeder das beste ganzzahlige Ergebnis über die Routen ohne gestrichene Kante; daneben die Zählung an kleinen Instanzen.
-- **Kern:** `ksp_algorithm.py` (Vorwärts- und Rückwärts-Labeling, Verbinden, Streichen, Aufzählung; jede Regel eine Funktion, Kopie des Messkerns der Vormessung, umbenannt) und `ksp_master.py` (Master mit HiGHS und exakt mit Brüchen, Spaltenerzeugung, ganzzahlige Partitionierung).
+- **Kern:** `ksp_algorithm.py` (Vorwärts- und Rückwärts-Labeling, Verbinden, Streichen, Aufzählung; jede Regel eine Funktion, Kopie des Messkerns der Vormessung, einer vor dem Bau gerechneten, nicht veröffentlichten Messreihe, umbenannt) und `ksp_master.py` (Master mit HiGHS und exakt mit Brüchen, Spaltenerzeugung, ganzzahlige Partitionierung).
   `ksp_evaluation.analyse_instanz` ist die eine Rechnung für eine Instanz; die Live-Rechnung und `tools/baender_erzeugen.py` rufen dieselbe Funktion auf.
 
 ## Befunde (gemessen, keine Behauptungen)
